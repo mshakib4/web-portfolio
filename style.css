@@ -1,8 +1,12 @@
 body{
     font-family: 'Fredoka One', cursive;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .name-highlight{
     color: orange;
@@ -15,4 +19,49 @@ h1{
 }
 .top img{
     width: 100%;
+}
+.topbackground{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dreem{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exprience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    height: 700px;
+    border: 1px solid black;
+}
+.linkbutton{
+    text-decoration: none;
+    background-color: rgb(9, 204, 45);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+p{
+    color: dimgrey;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 330px;
+    background-color: white;
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid rgb(180, 20, 229);
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
